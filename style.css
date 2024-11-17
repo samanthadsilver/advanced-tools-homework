@@ -1,3 +1,20 @@
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  col-sm-4 {
+    flex: 0 0 auto;
+    width: 33.3333333%;
+  }
+  col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -81,6 +98,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  text-align: center;
 }
 
 .email-link:hover {
@@ -110,14 +128,4 @@ p {
 
 .text-center {
   text-align: center;
-}
-
-.col-md-6 {
-  flex: 0 0 auto;
-  width: 50%;
-}
-
-.col-sm-4 {
-  flex: 0 0 auto;
-  width: 50%;
 }
